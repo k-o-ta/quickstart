@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'paper'
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "paper"
+    name = "Paper"
+    url = "/paper/"
+    weight = 10
+
+[params]
+  math = true
